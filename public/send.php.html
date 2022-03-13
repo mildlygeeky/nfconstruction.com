@@ -1,0 +1,9 @@
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<br />
+<b>Fatal error</b>:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /srv/users/serverpilot/apps/nafianna/public/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /srv/users/serverpilot/apps/nafianna/public/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(263): Swift_Mime_Headers_MailboxHeader-&gt;_assertValidAddress('')
+#1 /srv/users/serverpilot/apps/nafianna/public/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader-&gt;normalizeMailboxes(Array)
+#2 /srv/users/serverpilot/apps/nafianna/public/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader-&gt;setNameAddresses(Array)
+#3 /srv/users/serverpilot/apps/nafianna/public/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader-&gt;setFieldBodyM in <b>/srv/users/serverpilot/apps/nafianna/public/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php</b> on line <b>348</b><br />
