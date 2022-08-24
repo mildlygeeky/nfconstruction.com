@@ -1671,10 +1671,6 @@ html[xmlns] .slides {
         float:right;
         width:68%
     }
-
-    .interior-page__form--contact-form .contact-form__field--submit {
-        float:right
-    }
 }
 
 .interior-page__form--contact-form .contact-form__field--message {
