@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <script src="_ui/js/libs/modernizr.custom.44853.js"></script>
+    <style>
+        .contact-form__field--message {margin-bottom:.5em}
+    </style>
 </head>
 <body><!--[if lt IE 8]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser.
@@ -61,7 +64,6 @@
                     <label for="site-footer__form__tel">Phone:</label>
                     <input type="tel" name="telephone" id="site-footer__form__tel" placeholder="(617) 555-1234">
                 </div>
-                <div data-netlify-recaptcha="true"></div>
                 <p style="position: absolute;top: -9999px;left: -9999px;">
                     <label>
                         Don’t fill this out if you’re human: <input name="bot-field" />
@@ -73,6 +75,7 @@
                     <label for="site-footer__form__message">Message:</label>
                     <textarea id="site-footer__form__message" name="message" rows="12"></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 <div class="contact-form__field contact-form__field--submit">
                     <button>Submit</button>
                 </div>
