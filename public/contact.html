@@ -54,11 +54,11 @@
             <fieldset class="contact-form__left">
                 <div class="contact-form__field contact-form__field--name">
                     <label for="site-footer__form__name">Name:</label>
-                    <input type="text" name="name" id="site-footer__form__name">
+                    <input type="text" required name="name" id="site-footer__form__name">
                 </div>
                 <div class="contact-form__field contact-form__field--email">
                     <label for="site-footer__form__email">Email:</label>
-                    <input type="email" name="email" id="site-footer__form__email" placeholder="name@example.com">
+                    <input type="email" required name="email" id="site-footer__form__email" placeholder="name@example.com">
                 </div>
                 <div class="contact-form__field contact-form__field--tel">
                     <label for="site-footer__form__tel">Phone:</label>
@@ -73,7 +73,7 @@
             <fieldset class="contact-form__right">
                 <div class="contact-form__field contact-form__field--message">
                     <label for="site-footer__form__message">Message:</label>
-                    <textarea id="site-footer__form__message" name="message" rows="12"></textarea>
+                    <textarea required id="site-footer__form__message" name="message" rows="12"></textarea>
                 </div>
                 <div data-netlify-recaptcha="true"></div>
                 <div class="contact-form__field contact-form__field--submit">
